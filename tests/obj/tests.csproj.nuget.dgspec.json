@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/3f-lab/_projects/STUDWORKS/Alexandra/dynw1-bageriet-1-0-aleksa0809-version3.2/tests/tests.csproj": {}
+    "/home/3f-lab/_projects/STUDWORKS/Alexandra/Baloon_AB/tests/tests.csproj": {}
   },
   "projects": {
-    "/home/3f-lab/_projects/STUDWORKS/Alexandra/dynw1-bageriet-1-0-aleksa0809-version3.2/tests/tests.csproj": {
+    "/home/3f-lab/_projects/STUDWORKS/Alexandra/Baloon_AB/tests/tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/3f-lab/_projects/STUDWORKS/Alexandra/dynw1-bageriet-1-0-aleksa0809-version3.2/tests/tests.csproj",
+        "projectUniqueName": "/home/3f-lab/_projects/STUDWORKS/Alexandra/Baloon_AB/tests/tests.csproj",
         "projectName": "tests",
-        "projectPath": "/home/3f-lab/_projects/STUDWORKS/Alexandra/dynw1-bageriet-1-0-aleksa0809-version3.2/tests/tests.csproj",
+        "projectPath": "/home/3f-lab/_projects/STUDWORKS/Alexandra/Baloon_AB/tests/tests.csproj",
         "packagesPath": "/home/mabel/.nuget/packages/",
-        "outputPath": "/home/3f-lab/_projects/STUDWORKS/Alexandra/dynw1-bageriet-1-0-aleksa0809-version3.2/tests/obj/",
+        "outputPath": "/home/3f-lab/_projects/STUDWORKS/Alexandra/Baloon_AB/tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mabel/.nuget/NuGet/NuGet.Config"
