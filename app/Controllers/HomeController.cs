@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using app.Models;
+using Baloon_AB.Models;
 
-namespace app.Controllers
+namespace Baloon_AB.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace app.Models
+namespace Baloon_AB.Models
 {
     public class ErrorViewModel
     {
