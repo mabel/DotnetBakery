@@ -69,3 +69,5 @@
 /home/3f-lab/_projects/IS4/ind/obj/Debug/netcoreapp3.1/Baloon_AB.csproj.CopyComplete
 /home/3f-lab/_projects/IS4/ind/obj/Debug/netcoreapp3.1/Baloon_AB.dll
 /home/3f-lab/_projects/IS4/ind/obj/Debug/netcoreapp3.1/Baloon_AB.pdb
+/home/3f-lab/_projects/IS4/ind/obj/Debug/netcoreapp3.1/Razor/Views/Project/Item.cshtml.g.cs
+/home/3f-lab/_projects/IS4/ind/obj/Debug/netcoreapp3.1/Razor/Views/Project/List.cshtml.g.cs

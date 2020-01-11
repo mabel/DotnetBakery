@@ -1,0 +1,32 @@
+@model Baloon_AB.Models.Project
+@{
+    ViewData["Title"] = "Project Details";    
+}
+<h1>View and/or edit your project &laquo;@Model.Name&raquo;</h1>
+
+<form action="/project/edit">
+    @Html.HiddenFor(model => model.Id)
+    <div class="form-group">
+        @Html.LabelFor(model => model.InitDate, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.InitDate)
+            @Html.ValidationMessageFor(model => model.InitDate)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </div>
+</form>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

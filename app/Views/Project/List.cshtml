@@ -1,0 +1,28 @@
+@model IEnumerable<Baloon_AB.Models.Project>
+@{
+    ViewData["Title"] = "Your Projects";    
+}
+
+
+@if(Model == null || Model.Count() == 0){
+    <h6>There is no project.</h6>
+}
+else{
+    <h6>Your projects:</h6>
+    <ul>
+        @foreach (var proj in Model) {
+            <li>
+                @Html.ActionLink(@proj.Name, "Item", new {id=@proj.Id})
+                <!-- @Html.ActionLink("Edit", "Edit", new {id=@proj.Id}) -->
+                @Html.ActionLink("Delete", "Del", new {id=@proj.Id})
+            </li>
+        }
+    </ul>
+}
+
+<h6>Add your new project</h6>
+<form action='/project/add'>
+    <input name='project_name'>
+    <input type='hidden' value='@User.Identity.Name' name='user_name'>
+    <input type='submit' value='Submit!'>
+</form>
